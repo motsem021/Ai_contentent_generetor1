@@ -30,7 +30,7 @@ export default function SignUp() {
     };
 
     // استخدام fetch
-    fetch("https://example.com/api/register", {
+    fetch("http://localhost:5000/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
